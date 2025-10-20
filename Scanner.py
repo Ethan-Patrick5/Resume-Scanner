@@ -1,3 +1,5 @@
+import docscanner
+
 class Scanner:
     
     def __init__(resume):
