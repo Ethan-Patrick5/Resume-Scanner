@@ -1,12 +1,13 @@
 import Scanner
-
+#This class will be the main method that will prompt the users and recieve
+#their data
 class User:
 
     def __init__(fname, lname, resume):
         User.fname = fname
         User.lname = lname
         User.resume = resume
-
+    # This method is to prompt the user to attach their resume
     def getpdf():
         application = True
         print("Welcome to the resume scanner!\n" +
