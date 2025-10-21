@@ -1,3 +1,5 @@
+import Scanner
+
 class User:
 
     def __init__(fname, lname, resume):
