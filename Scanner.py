@@ -14,3 +14,7 @@ class Scanner:
         image = scanner.capture_image(Scanner.resume)
         scanner_resume = scanner.scan(image)
         
+    def skills_list(self, skill):
+        skills = []
+        skills.append(skill)
+        return skills
