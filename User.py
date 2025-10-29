@@ -1,4 +1,5 @@
-import Scanner
+from ResumeScanner import ResumeScanner
+
 #This class will be the main method that will prompt the users and recieve
 #their data
 class User:
@@ -20,6 +21,8 @@ class User:
                 User.fname = input("Please enter your first name:")
                 User.lname = input("Please enter last name:")
                 User.resume = input("Please enter the link to your resume: ")
+                Resume = ResumeScanner(User.resume)
+                Resume.get_skills()
             elif answer[0] == "n" or answer[0] == "N":
                 print("Thank you for using my program!")
                 application = False
